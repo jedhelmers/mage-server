@@ -57,14 +57,14 @@ Configuration:
       * serviceType - ESRI service type partial url
       * layerId - ESRI layerId partial url
   * observations - MAGE observation mapping.  Add one for each event id (i.e. 7 maps MAGE fields from eventId 7)
-      * enable - turn on/off sync'ing of this event
+      * enable - turn on/off syncing of this event
       * interval - frequency (seconds) at which the plugin will sync this event to the ESRI server.
       * fields - array that maps each observation field to an ESRI fields
           * type - primitive type
-          * mage - obseravtion field name in MAGE
+          * mage - observation field name in MAGE
           * esri - ESRI field name
   * attachments
-      * enable - turn on/off attachment sync'ing
+      * enable - turn on/off attachment syncing
       * interval - frequency (seconds) at which the plugin will sync attachments to the ESRI server.
 * mongodb
   * url - url scheme for the mongodb database.  This should be the same mongodb schema as used in your main MAGE configuration.
